@@ -1,0 +1,77 @@
+.App {
+  margin: auto;
+  text-align: center;
+}
+
+.length-control {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 4px;
+
+  &:first-child {
+    margin-right: 16px;
+  }
+  &-wrapper {
+    margin-bottom: 32px;
+  }
+}
+
+.button {
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  &--decrement {
+    background-color: #e0e0e0;
+  }
+
+  &--increment {
+    background-color: #8de969;
+  }
+
+  &--reset {
+    background-color: #ff6b35;
+    color: #fff;
+  }
+  &--start-pause {
+    color: #fff;
+    background-color: #0a8754;
+    margin-right: 8px;
+  }
+}
+
+.length {
+  display: inline-block;
+  margin: 0 16px;
+  width: 20px;
+}
+
+.time-display {
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 200px;
+  width: 230px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  &--warning {
+    color: #a50d0d;
+  }
+}
+
+#timer-label {
+  margin-top: 36px;
+  font: {
+    size: 32px;
+    weight: 600;
+  }
+}
+
+#time-left {
+  font: {
+    size: 64px;
+    weight: 600;
+  }
+}
